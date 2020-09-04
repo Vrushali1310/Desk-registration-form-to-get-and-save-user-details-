@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    color: darkslateblue;
+}
+body{
+    background-color: rgb(171, 216, 216);
+}
+.container{
+    max-width: 330px;
+    padding: 20px;
+    background-color: rgb(187, 109, 109);
+    color: rgb(19, 11, 11);
+    font-size: 17px;
+    font-weight: 900;
+}
+
+#myform{ 
+    align-self: flex-start;
+    margin-right: 240px;
+    margin-left: 250px;
+}
+.input{
+    padding-left: 15px;
+    margin-right: 40px;
+}
+
+button{
+    background-color: rgb(248, 244, 180);
+    color: rgb(228, 15, 103);
+    font-style: oblique;
+    font-weight: 1000;
+    font-size: medium;
+    margin-left: 110px ;
+    border-color: seagreen;
+    border-radius: 9px;
+    border-width: thick;
+
+    padding: 8px 8px;
+}
+
+#form_result{
+    color: rgb(8, 1, 59);
+    font-size: larger;
+    margin-top: 30px;
+    margin-left: 150px;
+    text-align: center;
+}
+#tr1{
+    padding-top: 50px;
+    color: rgb(133, 8, 75);
+    
+}
+.th1{
+    width:50px ;
+    margin-left: 5px;
+    
+
+}
+th{
+    width: 200px;
+    text-align: center;
+}

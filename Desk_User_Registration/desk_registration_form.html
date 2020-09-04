@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF=8">
+    <title>Desk Registration Form</title>
+    <link rel="stylesheet" href="desk_registration_form.css">
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <div class="form-popup" id="myform">
+        <form method="POST" class="container" name="myform" id="myform">
+            <label for="name">Name: </label>
+            <input type="text" class="input" id="name" name="name" placeholder="Name">
+            <br><br>
+            <label for="email-id">Email-id: </label>
+            <input type="email" class="input" id="email-id" name="email-id" placeholder="Email-id">
+            <br><br>
+            <label mb_no>Mobile No.: </label>
+            <input type="number" class="input" id="mb_no" name="mb_no" placeholder="Mobile No.">
+            <br>
+            <br>
+            <label for="address">Address</label>
+            <input type="text" class="input" id="address" name="address" placeholder="Address">
+            <br><br>
+
+            <label for="age">Age</label>
+            <input type="number" class="input" id="age" name="age" placeholder="Age">
+            <br><br>
+
+            <button type="button" class="btn" onclick="insertValue()">Submit</button>
+
+        </form>
+        <br><br>
+    </div>
+
+    <div>
+        <table id="form_result" class="table" border="1">
+            <tr id="tr1">
+                <th class="th1">Sr.No.</th>
+                <th class="th">Name</th>
+                <th class="th">Email-id</th>
+                <th class="th">Mobile No.</th>
+                <th class="th">Address</th>
+                <th class="th1">Age</th>
+            </tr>
+
+
+        </table>
+    </div>
+
+    <script src="desk_registration_form.js"></script>
+
+</body>
+
+</html>
